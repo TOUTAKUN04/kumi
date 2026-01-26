@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Moni</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="falling-container"></div>
+  <div id="toast"></div>
+
+  <div class="container">
+    <div class="section active" id="home">
+      <h1>Hi Moni,<br>can I have a few quiet moments with you?</h1>
+      <img src="images/softtoy1.gif" alt="Cute Soft Toy" class="main-img">
+      <br>
+      <button onclick="firstButtonClick()">Okay 🌸</button>
+    </div>
+
+    <div class="section" id="message">
+      <img src="images/softtoy2.gif" alt="Handmade Soft Toy" class="small-img">
+      <p>
+        Please don’t feel overwhelmed by this.<br>
+        I just wanted to tell you something in a meaningful way,<br>
+        <p>
+        I made this myself — quietly, with care.<br>
+        I like you. Not loudly, not urgently — just genuinely.<br>
+        <p>
+        Being around you feels calm and comfortable.
+      </p>
+      <button onclick="nextWithCredit('question', 1)">Continue</button>
+    </div>
+
+    <div class="section" id="question">
+      <p>
+        I was wondering —<br>
+        would you like to spend a little time with me this Valentine’s week?<br>
+        No pressure at all.
+      </p>
+      <button onclick="nextWithCredit('yes', 1)">I’d like that 🌸</button>
+      <button class="secondary" onclick="nextWithCredit('later', 2)">Can we talk later?</button>
+    </div>
+
+    <div class="section" id="yes">
+      <h1>That means a lot 💗</h1>
+      <p>Thank you for saying yes. We’ll keep it simple and comfortable.</p>
+      <img src="images/softtoy3.gif" alt="Soft Toy 3" class="small-img">
+      <div class="footer">Made quietly, with sincerity.</div>
+    </div>
+
+    <div class="section" id="later">
+      <img src="images/softtoy1.5.gif" alt="Soft Toy 1" class="small-img">
+    <p>
+      Take all the time you need.<br>
+      I’m glad you read this — that already means something to me.
+    </p>
+      <div class="footer">No pressure. Always.</div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
