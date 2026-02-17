@@ -18,14 +18,8 @@ A gentle, cozy little one‑page site made for a quiet confession — with falli
 ## 🖼️ Sticker Vibes From `images/`
 
 ### Sticker Strip
-<img src="images/softtoy1.gif" alt="softtoy1" width="64" />
-<img src="images/softtoy2.gif" alt="softtoy2" width="64" />
-<img src="images/softtoy3.gif" alt="softtoy3" width="64" />
-<img src="images/softtoy1.5.gif" alt="softtoy1.5" width="64" />
-<img src="images/softtoy.png" alt="softtoy" width="64" />
-<img src="images/munch.png" alt="munch" width="64" />
-<img src="images/flower1.png" alt="flower1" width="64" />
-<img src="images/flower2.png" alt="flower2" width="64" />
+<img src="images/softtoy1.gif" alt="softtoy1" width="64" /> <img src="images/softtoy2.gif" alt="softtoy2" width="64" /> <img src="images/softtoy3.gif" alt="softtoy3" width="64" /> <img src="images/flower1.png" alt="flower1" width="64" />
+<img src="images/softtoy1.5.gif" alt="softtoy1.5" width="64" /> <img src="images/softtoy.png" alt="softtoy" width="64" /> <img src="images/munch.png" alt="munch" width="64" /> <img src="images/flower2.png" alt="flower2" width="64" />
 
 ## 🗂️ Project Structure
 - `index.html`
